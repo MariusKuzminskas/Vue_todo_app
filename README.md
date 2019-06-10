@@ -1,29 +1,7 @@
-# vue_todo_application
+# Vue.js TOdo List App
 
-## Project setup
+## This is part of learnig Vue.js from Youtube
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Really nice and simple todo app
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
