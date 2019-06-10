@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    
-    <Header />
-    <router-view/>
+    <div class="container">
+      <Header />
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -26,7 +27,10 @@ export default {
   body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 1.4;
-
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
   }
   .btn {
     display: inline-block;

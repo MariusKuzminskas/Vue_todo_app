@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-       
         <AddTodo v-on:add-todo="addTodo" />
         <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
         
@@ -40,7 +39,9 @@ export default {
         completed
       })
       .then(res => this.todos = [...this.todos, res.data])      
-      .catch(err => console.log(err))
+      .then(res => (res.data))      
+      .catch(err => console.log(err));
+      
     }
   },
   created() {

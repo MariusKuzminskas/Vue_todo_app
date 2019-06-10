@@ -19,7 +19,6 @@ export default {
     addTodo(e){
       e.preventDefault();
       const newTodo = {
-        
         title: this.title,
         completed: false
       }
@@ -38,6 +37,7 @@ export default {
   input[type="text"]{
     flex: 10;
     padding: 5px;
+    
   }
   input[type="Submit"] {
     flex: 2;

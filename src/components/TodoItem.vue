@@ -25,8 +25,11 @@ export default {
 <style scoped >
 .todo-item {
   background-color: #f4f4f4;
-  padding: 10px;
+  padding: 10px 25px;
   border-bottom: 1px dotted #ccc;
+}
+.todo-item input {
+  margin-right: 12px;
 }
 .is-complete {
   text-decoration: line-through;
